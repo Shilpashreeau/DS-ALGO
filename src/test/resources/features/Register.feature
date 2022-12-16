@@ -37,37 +37,37 @@ Feature: Validating register functionality
 	
 	Scenario: Validating functionality of register entering only numeric values in username
 		Given User on ds-algo Register page
-		When User enters only numerics  in username field, password and confirm password
+		When User clicks register entering only numerics  in username field, password and confirm password
 		Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as <username>"
 
 	Scenario: Validating functionality of register entering special characters in username
 		Given User on ds-algo Register page
-		When User enters special characters with alphanumeric ,password and confirm password
+		When User clicks register entering special characters with alphanumeric ,password and confirm password
 		Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as <username>"
 	
 	Scenario: Validating functionality of register entering only special characters in username
 		Given User on ds-algo Register page
-		When User enters special characters in username , password and confirm password
+		When User clicks register entering special characters in username , password and confirm password
 		Then The user should be redirected to Homepage with the message "New Account Created. You are logged in as <username>"
 
 	Scenario: Validating functionality of password field with less than 8 characters
 		Given User on ds-algo Register page and enters username and clicks on the password field
-		When User enters less than 8 characters
+		When User clicks register entering less than 8 characters in password field
 		Then It should display an error message"password more than 8 characters"
 	
 	Scenario: Validating functionality of password field with more  than 8 characters
 		Given User on ds-algo Register page and enters username and clicks on the password field
-		When User enters only characters
+		When User clicks register entering only characters in password field
 		Then It should display an error message "password_mismatch:The two password fields didn’t match."
 	
 	Scenario: Validating functionality of password field with more  than 8 numerics
 		Given User on ds-algo Register page and enters username and clicks on the password field
-		When User enters only numerics 
+		When User clicks register entering only numerics in password field
 		Then It should display an error message "password_mismatch:The two password fields didn’t match."
 
 	Scenario: Validating functionality of password with common password
 		Given User on ds-algo Register page and enters username and clicks on the password field
-		When The user enters a common password
+		When The user clicks register entering a common password 
 		Then It should display an error message "password_mismatch:The two password fields didn’t match."
 
   

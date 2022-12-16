@@ -83,20 +83,20 @@ public class RegisterSteps {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters only numerics  in username field, password and confirm password")
-	public void user_enters_only_numerics_in_username_field_password_and_confirm_password() {
+	@When("User clicks register entering only numerics  in username field, password and confirm password")
+	public void user_clicks_register_entering_only_numerics_in_username_field_password_and_confirm_password() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters special characters with alphanumeric ,password and confirm password")
-	public void user_enters_special_characters_with_alphanumeric_password_and_confirm_password() {
+	@When("User clicks register entering special characters with alphanumeric ,password and confirm password")
+	public void user_clicks_register_entering_special_characters_with_alphanumeric_password_and_confirm_password() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters special characters in username , password and confirm password")
-	public void user_enters_special_characters_in_username_password_and_confirm_password() {
+	@When("User clicks register entering special characters in username , password and confirm password")
+	public void user_clicks_register_entering_special_characters_in_username_password_and_confirm_password() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -107,8 +107,8 @@ public class RegisterSteps {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters less than {int} characters")
-	public void user_enters_less_than_characters(Integer int1) {
+	@When("User clicks register entering less than {int} characters in password field")
+	public void user_clicks_register_entering_less_than_characters_in_password_field(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -119,8 +119,8 @@ public class RegisterSteps {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters only characters")
-	public void user_enters_only_characters() {
+	@When("User clicks register entering only characters in password field")
+	public void user_clicks_register_entering_only_characters_in_password_field() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -131,17 +131,16 @@ public class RegisterSteps {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User enters only numerics")
-	public void user_enters_only_numerics() {
+	@When("User clicks register entering only numerics in password field")
+	public void user_clicks_register_entering_only_numerics_in_password_field() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("The user enters a common password")
-	public void the_user_enters_a_common_password() {
+	@When("The user clicks register entering a common password")
+	public void the_user_clicks_register_entering_a_common_password() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
-
 
 }
