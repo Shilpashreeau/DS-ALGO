@@ -31,7 +31,7 @@ Then: User should be directed to "Queue Operations" page
 Scenario: Validating Practice Questions
 Given: User is in "Implementation of Queue in Phyton" or "Implementation using collections.deque"or "Implementation using array" or "Queue Operations" 
 When: User clicks  "Practice Questions" 
-Then: User should be directed to Empty page
+Then: User should be directed to Empty page111
 
 Scenario: Validating Try editor 
 Given: User is in "Operations in Stack" or "Implementation" or "Applications" page
