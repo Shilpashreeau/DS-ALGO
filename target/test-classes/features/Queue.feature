@@ -17,8 +17,19 @@ Given: User is in Implementation of Queue in Phyton page
 When: User clicks  "Implementation using collections.deque" 
 Then: User should be directed to "Implementation using collections.deque" page
 
+Scenario: Validating Implementation
+Given: User is in Implementation of Queue in Phyton page
+When: User clicks  "Implementation using array" 
+Then: User should be directed to "Implementation using array" page
+
+Scenario: Validating Implementation
+Given: User is in Implementation using arrayn page
+When: User clicks  "Queue Operations" 
+Then: User should be directed to "Queue Operations" page
+
+
 Scenario: Validating Practice Questions
-Given: User is in "Implementation of Queue in Phyton" or "Implementation using collections.deque" 
+Given: User is in "Implementation of Queue in Phyton" or "Implementation using collections.deque"or "Implementation using array" or "Queue Operations" 
 When: User clicks  "Practice Questions" 
 Then: User should be directed to Empty page
 
