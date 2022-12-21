@@ -18,7 +18,7 @@ public class ArraySteps {
 	}
 
 	@Then("The user should be redirected to {string} page\"")
-	public void the_user_should_be_redirected_to_page1(String string) {
+	public void the_user_should_be_redirected_to_page(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -31,24 +31,6 @@ public class ArraySteps {
 
 	@When("The user clicks {string} button in Arrays using List page")
 	public void the_user_clicks_button_in_arrays_using_list_page(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("The user should be redirected to a page having an tryEditor with a Run button to test")
-	public void the_user_should_be_redirected_to_a_page_having_an_try_editor_with_a_run_button_to_test() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@When("The user clicks {string} button")
-	public void the_user_clicks_button(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
-	@Then("The user should be redirected to {string} page")
-	public void the_user_should_be_redirected_to_page(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -89,16 +71,15 @@ public class ArraySteps {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("The user clicks {string} link")
-	public void the_user_clicks_link(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
-
 	@Then("The user should be redirected to {string} page contains questions,an tryEditor  to write code with Run and Submit buttons")
 	public void the_user_should_be_redirected_to_page_contains_questions_an_try_editor_to_write_code_with_run_and_submit_buttons(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
-	
 	}
+
+
+
+
+
+
 }
