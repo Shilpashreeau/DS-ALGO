@@ -1,42 +1,36 @@
+@tag
 Feature: Validating Stack
 
-Scenario: Validating Stack home page
-Given: The user is in the Home page after logged in
-When: The user clicks the "Getting Started" button in Stack Pane or select Stack item from the drop down menu
-Then: The user should be directed to "Stack" Page
+	Scenario: Validating Stack home page
+		Given The user is in the Home page after logged in
+		When The user clicks the "Getting Started" button 
+		Then It should be directed to "Stack" Page
+		Given User is on Stack home page
+		When User clicks Operations in Stack
+		Then User should be directed to "Operations in Stack" page
+		When user clicks Try Here
+		Then user should be directed to "Assesment" page
+		When user enter the Python code
+			| print"Operations in Stack" |
+		And click on run button
+		Then User navigate back
 
-Scenario: Validating Operation in Stack
-Given: User is on Stack home page
-When: User clicks "Operations in Stack" 
-Then: User should be directed to "Operations in Stack" page
+ Scenario: User validate Implementation page
+    When user click on Implementation
+    Then It should navigate to corresponding page with title "Implementation"
+    When user click on Try here
+    Then It should navigate to corresponding page with title "Assessment"
+    When user enter the Python code
+      | print"Implementation" |
+    And click on run button
+    Then User navigate back
 
-Scenario: Validating Implementation
-Given: User is in "Operations in Stack" page
-When: User clicks  "Implementation" 
-Then: User should be directed to "Implementation" page
-
-Scenario: Validating Applications
-Given: User is in "Operations in Stack" page
-When: User clicks  "Applications" 
-Then: User should be directed to "Applications" page
-
-Scenario: Validating Practice Questions
-Given: User is in "Operations in Stack" or "Implementation" or "Applications" page
-When: User clicks  "Practice Questions" 
-Then: User should be directed to Empty page
-
-Scenario: Validating Try editor 
-Given: User is in "Operations in Stack" or "Implementation" or "Applications" page
-When: User clicks  "Try here" 
-Then: User should be directed to "try Editor" page
-
-Scenario: Validating Try editor 
-Given: User is in "Try editor" page
-When: User try to print  "hello World"
-Then: User should be directed to run page Hello world
-
-
-
-
-
-
+  Scenario: User validate Applications page
+    When user click on Applications
+    Then It should navigate to corresponding page with title "Applications"
+    When user click on Try here
+    Then It should navigate to corresponding page with title "Assessment"
+    When user enter the Python code
+      | print"Applications" |
+    And click on run button
+    Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"
